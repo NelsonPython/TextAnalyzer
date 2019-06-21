@@ -21,4 +21,6 @@ Then, copy these folders into the gender-bias folder. You will replace the origi
 
 Create a folder called ```JBR_BiasText``` in your home folder. Then, run gender-bais using this command.
 
-cat /home/YOUR_HOME_FOLDER/gender-bias/YOUR_JOB_BULLETINS_FOLDER/'311 DIRECTOR  9206 041814.txt' | genderbias > JBR_BiasText/3119.txt
+cat /home/YOUR_HOME_FOLDER/gender-bias/FOLDER_WITH_YOUR_TEXT_FILES/'311 DIRECTOR  9206 041814.txt' | genderbias > JBR_BiasText/3119.txt
+
+Note:  If you are evaulating the City of Los Angeles Job Bulletins then ```FOLDER_WITH_YOUR_TEXT_FILES``` should be the folder containing the City of Los Angeles Job Bulletins in text format.
